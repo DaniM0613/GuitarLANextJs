@@ -1,7 +1,7 @@
 
 export default function Home() {
     return (
-       <h1>Hola Mundo</h1>
+       <h1>BTS PAVED THE WAY </h1>
     )
   }
   
