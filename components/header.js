@@ -6,7 +6,7 @@ import styles from '../styles/header.module.css'
 export default function Header() {
 
     const router = useRouter()
-    console.log(router)
+   
   return (
   <header className={styles.header} > 
     <div className={`contenedor ${styles.barra} `} >
@@ -32,7 +32,11 @@ export default function Header() {
             <Link className={ router.pathname === '/blog' ? styles.active : ''} href="/blog" >
                 Blog
             </Link>
-            
+
+            <Link href="/carrito">
+
+            <Image width={30} height={25} src="/img/carrito.png" alt="imagen carrito" />
+            </Link>
             
         </nav>
 
