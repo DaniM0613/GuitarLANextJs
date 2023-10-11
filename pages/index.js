@@ -5,7 +5,7 @@ import Curso from '@/components/curso'
 import styles from '../styles/grid.module.css'
 
 export default function Home({guitarras, posts, curso}) {
-  console.log(curso)
+ 
     return (
       <> 
       <Layout
